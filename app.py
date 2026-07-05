@@ -13,107 +13,63 @@ APP_TAGLINE = "Reality-Grade AI Verification"
 FREE_DAILY_LIMIT = 10
 PREMIUM_PRICE = "$5.99/month"
 
-# Dynamic theme engine - changes based on search topic
 THEME_ENGINE = {
     "default": {
-        "primary": "#0a0a0f",
-        "accent": "#6366f1",
-        "glow": "rgba(99,102,241,0.4)",
-        "text": "#e2e8f0",
-        "muted": "#94a3b8",
-        "card": "rgba(15,15,25,0.8)",
-        "border": "rgba(99,102,241,0.2)",
-        "particle": "#6366f1",
+        "primary": "#0a0a0f", "accent": "#6366f1", "glow": "rgba(99,102,241,0.4)",
+        "text": "#e2e8f0", "muted": "#94a3b8", "card": "rgba(15,15,25,0.85)",
+        "border": "rgba(99,102,241,0.2)", "particle": "#6366f1",
         "gradient": "linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 50%, #16213e 100%)",
         "accent_gradient": "linear-gradient(135deg, #6366f1, #8b5cf6)",
-        "score_high": "#22d3ee",
-        "score_mid": "#fbbf24",
-        "score_low": "#f43f5e",
-        "emoji": "◈"
+        "score_high": "#22d3ee", "score_mid": "#fbbf24", "score_low": "#f43f5e",
+        "emoji": "◈", "image_keywords": "technology abstract futuristic"
     },
     "space": {
-        "primary": "#020617",
-        "accent": "#38bdf8",
-        "glow": "rgba(56,189,248,0.4)",
-        "text": "#e0f2fe",
-        "muted": "#7dd3fc",
-        "card": "rgba(2,6,23,0.85)",
-        "border": "rgba(56,189,248,0.2)",
-        "particle": "#38bdf8",
+        "primary": "#020617", "accent": "#38bdf8", "glow": "rgba(56,189,248,0.4)",
+        "text": "#e0f2fe", "muted": "#7dd3fc", "card": "rgba(2,6,23,0.9)",
+        "border": "rgba(56,189,248,0.2)", "particle": "#38bdf8",
         "gradient": "linear-gradient(135deg, #020617 0%, #0c4a6e 50%, #1e3a5f 100%)",
         "accent_gradient": "linear-gradient(135deg, #38bdf8, #818cf8)",
-        "score_high": "#7dd3fc",
-        "score_mid": "#fcd34d",
-        "score_low": "#fb7185",
-        "emoji": "🪐"
+        "score_high": "#7dd3fc", "score_mid": "#fcd34d", "score_low": "#fb7185",
+        "emoji": "🪐", "image_keywords": "space galaxy stars planet cosmos nebula"
     },
     "nature": {
-        "primary": "#052e16",
-        "accent": "#4ade80",
-        "glow": "rgba(74,222,128,0.4)",
-        "text": "#dcfce7",
-        "muted": "#86efac",
-        "card": "rgba(5,46,22,0.85)",
-        "border": "rgba(74,222,128,0.2)",
-        "particle": "#4ade80",
+        "primary": "#052e16", "accent": "#4ade80", "glow": "rgba(74,222,128,0.4)",
+        "text": "#dcfce7", "muted": "#86efac", "card": "rgba(5,46,22,0.9)",
+        "border": "rgba(74,222,128,0.2)", "particle": "#4ade80",
         "gradient": "linear-gradient(135deg, #052e16 0%, #14532d 50%, #166534 100%)",
         "accent_gradient": "linear-gradient(135deg, #4ade80, #22d3ee)",
-        "score_high": "#86efac",
-        "score_mid": "#fde047",
-        "score_low": "#fca5a5",
-        "emoji": "🌿"
+        "score_high": "#86efac", "score_mid": "#fde047", "score_low": "#fca5a5",
+        "emoji": "🌿", "image_keywords": "nature forest green landscape trees"
     },
     "history": {
-        "primary": "#451a03",
-        "accent": "#f59e0b",
-        "glow": "rgba(245,158,11,0.4)",
-        "text": "#fef3c7",
-        "muted": "#fcd34d",
-        "card": "rgba(69,26,3,0.85)",
-        "border": "rgba(245,158,11,0.2)",
-        "particle": "#f59e0b",
+        "primary": "#451a03", "accent": "#f59e0b", "glow": "rgba(245,158,11,0.4)",
+        "text": "#fef3c7", "muted": "#fcd34d", "card": "rgba(69,26,3,0.9)",
+        "border": "rgba(245,158,11,0.2)", "particle": "#f59e0b",
         "gradient": "linear-gradient(135deg, #451a03 0%, #78350f 50%, #92400e 100%)",
         "accent_gradient": "linear-gradient(135deg, #f59e0b, #f97316)",
-        "score_high": "#fcd34d",
-        "score_mid": "#fdba74",
-        "score_low": "#fca5a5",
-        "emoji": "🏛"
+        "score_high": "#fcd34d", "score_mid": "#fdba74", "score_low": "#fca5a5",
+        "emoji": "🏛", "image_keywords": "ancient history monument architecture ruins"
     },
     "tech": {
-        "primary": "#0f172a",
-        "accent": "#06b6d4",
-        "glow": "rgba(6,182,212,0.4)",
-        "text": "#cffafe",
-        "muted": "#67e8f9",
-        "card": "rgba(15,23,42,0.85)",
-        "border": "rgba(6,182,212,0.2)",
-        "particle": "#06b6d4",
+        "primary": "#0f172a", "accent": "#06b6d4", "glow": "rgba(6,182,212,0.4)",
+        "text": "#cffafe", "muted": "#67e8f9", "card": "rgba(15,23,42,0.9)",
+        "border": "rgba(6,182,212,0.2)", "particle": "#06b6d4",
         "gradient": "linear-gradient(135deg, #0f172a 0%, #164e63 50%, #155e75 100%)",
         "accent_gradient": "linear-gradient(135deg, #06b6d4, #3b82f6)",
-        "score_high": "#67e8f9",
-        "score_mid": "#fde047",
-        "score_low": "#fda4af",
-        "emoji": "⚡"
+        "score_high": "#67e8f9", "score_mid": "#fde047", "score_low": "#fda4af",
+        "emoji": "⚡", "image_keywords": "technology circuit digital cyber computer"
     },
     "art": {
-        "primary": "#4a044e",
-        "accent": "#e879f9",
-        "glow": "rgba(232,121,249,0.4)",
-        "text": "#fae8ff",
-        "muted": "#f0abfc",
-        "card": "rgba(74,4,78,0.85)",
-        "border": "rgba(232,121,249,0.2)",
-        "particle": "#e879f9",
+        "primary": "#4a044e", "accent": "#e879f9", "glow": "rgba(232,121,249,0.4)",
+        "text": "#fae8ff", "muted": "#f0abfc", "card": "rgba(74,4,78,0.9)",
+        "border": "rgba(232,121,249,0.2)", "particle": "#e879f9",
         "gradient": "linear-gradient(135deg, #4a044e 0%, #86198f 50%, #a21caf 100%)",
         "accent_gradient": "linear-gradient(135deg, #e879f9, #c084fc)",
-        "score_high": "#f0abfc",
-        "score_mid": "#fde68a",
-        "score_low": "#fecdd3",
-        "emoji": "🎨"
+        "score_high": "#f0abfc", "score_mid": "#fde68a", "score_low": "#fecdd3",
+        "emoji": "🎨", "image_keywords": "art painting creative colorful abstract"
     }
 }
 
-# Topic detection for dynamic theming
 TOPIC_KEYWORDS = {
     "space": ["moon", "planet", "star", "galaxy", "mars", "sun", "earth", "nasa", "space", "universe", "cosmos", "satellite", "orbit", "astronaut", "rocket"],
     "nature": ["tree", "plant", "animal", "forest", "ocean", "river", "mountain", "flower", "bird", "fish", "climate", "weather", "ecosystem", "biology", "photosynthesis"],
@@ -173,30 +129,38 @@ st.set_page_config(
 )
 
 # ═══════════════════════════════════════════════════════════════
-# SESSION STATE
+# SESSION STATE (FIXED - use unique keys to avoid conflicts)
 # ═══════════════════════════════════════════════════════════════
-if "logged_in" not in st.session_state:
-    st.session_state.logged_in = False
-    st.session_state.username = None
-    st.session_state.theme = "default"
-    st.session_state.last_question = ""
+if "cx_logged_in" not in st.session_state:
+    st.session_state.cx_logged_in = False
+if "cx_username" not in st.session_state:
+    st.session_state.cx_username = None
+if "cx_theme" not in st.session_state:
+    st.session_state.cx_theme = "default"
+if "cx_last_question" not in st.session_state:
+    st.session_state.cx_last_question = ""
+if "cx_run_eval" not in st.session_state:
+    st.session_state.cx_run_eval = False
+if "cx_current_q" not in st.session_state:
+    st.session_state.cx_current_q = ""
+if "cx_current_r" not in st.session_state:
+    st.session_state.cx_current_r = ""
 
-# Detect theme from last question
-if st.session_state.last_question:
-    detected = detect_theme(st.session_state.last_question)
-    if detected != st.session_state.theme:
-        st.session_state.theme = detected
+# Detect theme
+if st.session_state.cx_last_question:
+    detected = detect_theme(st.session_state.cx_last_question)
+    if detected != st.session_state.cx_theme:
+        st.session_state.cx_theme = detected
 
-theme = THEME_ENGINE[st.session_state.theme]
+theme = THEME_ENGINE[st.session_state.cx_theme]
 
 # ═══════════════════════════════════════════════════════════════
-# 4D CSS WITH DYNAMIC THEME
+# CSS
 # ═══════════════════════════════════════════════════════════════
 st.markdown(f"""
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
-    /* ─── GLOBAL ─── */
     .stApp {{
         background: {theme['gradient']} !important;
         font-family: 'Inter', sans-serif;
@@ -206,49 +170,41 @@ st.markdown(f"""
         max-width: 100% !important;
     }}
 
-    /* ─── 4D PARTICLE FIELD ─── */
-    #particle-canvas {{
-        position: fixed;
-        top: 0; left: 0;
-        width: 100%; height: 100%;
-        pointer-events: none;
-        z-index: 0;
-    }}
-
-    /* ─── HERO SECTION ─── */
-    .hero-4d {{
+    .theme-hero {{
         position: relative;
-        text-align: center;
-        padding: 4rem 2rem 3rem;
+        width: 100%;
+        height: 320px;
         overflow: hidden;
+        border-radius: 0 0 40px 40px;
+        margin-bottom: 2rem;
     }}
-    .hero-4d::before {{
-        content: '';
+    .theme-hero img {{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(0.35) saturate(1.2);
+    }}
+    .theme-hero-overlay {{
         position: absolute;
-        top: -50%; left: -50%;
-        width: 200%; height: 200%;
-        background: radial-gradient(ellipse at 30% 20%, {theme['glow']} 0%, transparent 50%),
-                    radial-gradient(ellipse at 70% 80%, {theme['glow']} 0%, transparent 50%);
-        animation: breathe 8s ease-in-out infinite;
-        z-index: 0;
+        top: 0; left: 0; right: 0; bottom: 0;
+        background: linear-gradient(180deg, 
+            rgba(10,10,15,0.2) 0%, 
+            rgba(10,10,15,0.5) 50%,
+            {theme['primary']} 100%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
     }}
-    @keyframes breathe {{
-        0%, 100% {{ transform: scale(1) rotate(0deg); opacity: 0.6; }}
-        50% {{ transform: scale(1.1) rotate(2deg); opacity: 1; }}
-    }}
-    .hero-content {{
-        position: relative;
-        z-index: 1;
-    }}
-    .hero-logo {{
+    .theme-hero-logo {{
         font-family: 'Space Grotesk', sans-serif;
-        font-size: 4.5rem;
+        font-size: 3.5rem;
         font-weight: 700;
         letter-spacing: -0.05em;
-        background: {theme['accent_gradient']};
+        background: linear-gradient(135deg, #fff, {theme['accent']});
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        background-clip: text;
         text-shadow: 0 0 60px {theme['glow']};
         animation: float 6s ease-in-out infinite;
     }}
@@ -256,28 +212,29 @@ st.markdown(f"""
         0%, 100% {{ transform: translateY(0px); }}
         50% {{ transform: translateY(-10px); }}
     }}
-    .hero-tagline {{
-        color: {theme['muted']};
-        font-size: 1.1rem;
+    .theme-hero-tagline {{
+        color: rgba(255,255,255,0.7);
+        font-size: 1rem;
         font-weight: 300;
         letter-spacing: 0.2em;
         text-transform: uppercase;
         margin-top: 0.5rem;
     }}
-    .hero-theme-badge {{
-        display: inline-block;
+    .theme-badge {{
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
         margin-top: 1rem;
-        padding: 6px 20px;
-        background: {theme['card']};
-        border: 1px solid {theme['border']};
+        padding: 8px 24px;
+        background: rgba(255,255,255,0.1);
+        border: 1px solid rgba(255,255,255,0.2);
         border-radius: 50px;
         color: {theme['accent']};
-        font-size: 0.8rem;
+        font-size: 0.85rem;
         font-weight: 500;
         backdrop-filter: blur(10px);
     }}
 
-    /* ─── GLASS CARDS (4D DEPTH) ─── */
     .glass-card {{
         background: {theme['card']};
         border: 1px solid {theme['border']};
@@ -309,7 +266,6 @@ st.markdown(f"""
             inset 0 1px 0 rgba(255,255,255,0.1);
     }}
 
-    /* ─── INPUT FIELDS ─── */
     .stTextInput > div > div > input,
     .stTextArea > div > div > textarea {{
         background: {theme['card']} !important;
@@ -326,7 +282,6 @@ st.markdown(f"""
     .stTextArea > div > div > textarea:focus {{
         border-color: {theme['accent']} !important;
         box-shadow: 0 0 20px {theme['glow']}, inset 0 2px 8px rgba(0,0,0,0.2) !important;
-        outline: none !important;
     }}
     .stTextInput > label,
     .stTextArea > label {{
@@ -337,7 +292,6 @@ st.markdown(f"""
         letter-spacing: 0.1em;
     }}
 
-    /* ─── BUTTONS ─── */
     .stButton > button {{
         background: {theme['accent_gradient']} !important;
         color: #fff !important;
@@ -350,22 +304,16 @@ st.markdown(f"""
         text-transform: uppercase;
         transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
         box-shadow: 0 4px 20px {theme['glow']} !important;
-        position: relative;
-        overflow: hidden;
     }}
     .stButton > button:hover {{
         transform: translateY(-2px) !important;
         box-shadow: 0 8px 40px {theme['glow']} !important;
     }}
-    .stButton > button:active {{
-        transform: translateY(0) !important;
-    }}
 
-    /* ─── SCORE RING (4D) ─── */
     .score-ring-container {{
         position: relative;
-        width: 200px;
-        height: 200px;
+        width: 180px;
+        height: 180px;
         margin: 0 auto;
     }}
     .score-ring-svg {{
@@ -382,8 +330,8 @@ st.markdown(f"""
         stroke: url(#scoreGradient);
         stroke-width: 8;
         stroke-linecap: round;
-        stroke-dasharray: 565.48;
-        stroke-dashoffset: 565.48;
+        stroke-dasharray: 502.65;
+        stroke-dashoffset: 502.65;
         animation: ringFill 1.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
     }}
     @keyframes ringFill {{
@@ -394,7 +342,7 @@ st.markdown(f"""
         top: 50%; left: 50%;
         transform: translate(-50%, -50%);
         font-family: 'Space Grotesk', sans-serif;
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: 700;
         color: {theme['text']};
     }}
@@ -403,24 +351,23 @@ st.markdown(f"""
         top: 65%; left: 50%;
         transform: translateX(-50%);
         color: {theme['muted']};
-        font-size: 0.75rem;
+        font-size: 0.7rem;
         text-transform: uppercase;
         letter-spacing: 0.15em;
     }}
 
-    /* ─── DIMENSION BARS ─── */
     .dim-bar-container {{
-        margin: 0.75rem 0;
+        margin: 0.6rem 0;
     }}
     .dim-bar-label {{
         display: flex;
         justify-content: space-between;
         color: {theme['muted']};
         font-size: 0.8rem;
-        margin-bottom: 0.4rem;
+        margin-bottom: 0.3rem;
     }}
     .dim-bar-track {{
-        height: 6px;
+        height: 5px;
         background: rgba(255,255,255,0.05);
         border-radius: 3px;
         overflow: hidden;
@@ -437,7 +384,6 @@ st.markdown(f"""
         to {{ width: var(--bar-width); }}
     }}
 
-    /* ─── FACT CARDS ─── */
     .fact-card {{
         background: {theme['card']};
         border-left: 3px solid {theme['accent']};
@@ -462,7 +408,6 @@ st.markdown(f"""
         margin-bottom: 0.25rem;
     }}
 
-    /* ─── CORRECTION PANEL ─── */
     .correction-panel {{
         background: linear-gradient(135deg, rgba(34,211,238,0.1), rgba(99,102,241,0.1));
         border: 1px solid rgba(34,211,238,0.3);
@@ -478,10 +423,9 @@ st.markdown(f"""
         letter-spacing: 0.1em;
     }}
 
-    /* ─── LOGIN ─── */
     .login-orb {{
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
         margin: 0 auto 2rem;
         border-radius: 50%;
         background: {theme['accent_gradient']};
@@ -490,14 +434,13 @@ st.markdown(f"""
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }}
     @keyframes orbPulse {{
         0%, 100% {{ transform: scale(1); box-shadow: 0 0 60px {theme['glow']}; }}
         50% {{ transform: scale(1.05); box-shadow: 0 0 100px {theme['glow']}; }}
     }}
 
-    /* ─── PREMIUM CARD ─── */
     .premium-card {{
         background: linear-gradient(135deg, rgba(255,215,0,0.08), rgba(255,237,78,0.05));
         border: 1px solid rgba(255,215,0,0.25);
@@ -521,13 +464,12 @@ st.markdown(f"""
     }}
     .premium-price {{
         font-family: 'Space Grotesk', sans-serif;
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: 700;
         color: #ffd700;
         text-shadow: 0 0 30px rgba(255,215,0,0.5);
     }}
 
-    /* ─── FOOTER ─── */
     .corex-footer {{
         text-align: center;
         padding: 3rem 2rem;
@@ -573,34 +515,49 @@ st.markdown(f"""
         margin-top: 1rem;
     }}
 
-    /* ─── SIDEBAR ─── */
+    .image-grid {{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.75rem;
+        margin: 1.5rem 0;
+    }}
+    .image-grid-item {{
+        position: relative;
+        border-radius: 16px;
+        overflow: hidden;
+        aspect-ratio: 16/10;
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        border: 1px solid {theme['border']};
+    }}
+    .image-grid-item:hover {{
+        transform: scale(1.05) translateY(-4px);
+        box-shadow: 0 20px 40px rgba(0,0,0,0.4), 0 0 30px {theme['glow']};
+        z-index: 10;
+    }}
+    .image-grid-item img {{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }}
+
     .css-1d391kg, .css-163ttbj {{
         background: {theme['primary']} !important;
     }}
 
-    /* ─── HIDE STREAMLIT BRANDING ─── */
     #MainMenu {{ visibility: hidden; }}
     footer {{ visibility: hidden; }}
     .stDeployButton {{ display: none; }}
 
-    /* ─── SCROLLBAR ─── */
-    ::-webkit-scrollbar {{
-        width: 6px;
-    }}
-    ::-webkit-scrollbar-track {{
-        background: {theme['primary']};
-    }}
-    ::-webkit-scrollbar-thumb {{
-        background: {theme['accent']};
-        border-radius: 3px;
-    }}
+    ::-webkit-scrollbar {{ width: 6px; }}
+    ::-webkit-scrollbar-track {{ background: {theme['primary']}; }}
+    ::-webkit-scrollbar-thumb {{ background: {theme['accent']}; border-radius: 3px; }}
 </style>
 """, unsafe_allow_html=True)
 
 # ═══════════════════════════════════════════════════════════════
 # LOGIN PAGE
 # ═══════════════════════════════════════════════════════════════
-if not st.session_state.logged_in:
+if not st.session_state.cx_logged_in:
     st.markdown("""
     <div style="max-width: 420px; margin: 0 auto; padding-top: 3rem;">
         <div class="login-orb">◈</div>
@@ -619,20 +576,20 @@ if not st.session_state.logged_in:
             tab_login, tab_create = st.tabs(["Sign In", "Create Account"])
 
             with tab_login:
-                username = st.text_input("Username", key="login_user")
-                password = st.text_input("Password", type="password", key="login_pass")
-                if st.button("Enter CoreX →", use_container_width=True, key="login_btn"):
+                username = st.text_input("Username", key="cx_login_user")
+                password = st.text_input("Password", type="password", key="cx_login_pass")
+                if st.button("Enter CoreX →", use_container_width=True, key="cx_login_btn"):
                     if check_password(username, password):
-                        st.session_state.logged_in = True
-                        st.session_state.username = username
+                        st.session_state.cx_logged_in = True
+                        st.session_state.cx_username = username
                         st.rerun()
                     else:
                         st.error("Invalid credentials")
 
             with tab_create:
-                new_user = st.text_input("Choose Username", key="new_user")
-                new_pass = st.text_input("Choose Password", type="password", key="new_pass")
-                if st.button("Create Free Account", use_container_width=True, key="create_btn"):
+                new_user = st.text_input("Choose Username", key="cx_new_user")
+                new_pass = st.text_input("Choose Password", type="password", key="cx_new_pass")
+                if st.button("Create Free Account", use_container_width=True, key="cx_create_btn"):
                     if new_user and new_pass:
                         if new_user not in USER_DB:
                             USER_DB[new_user] = {
@@ -649,7 +606,6 @@ if not st.session_state.logged_in:
 
             st.markdown('</div>', unsafe_allow_html=True)
 
-            # Free vs Premium
             st.markdown("""
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1.5rem;">
                 <div class="glass-card" style="text-align: center; padding: 1.25rem;">
@@ -670,7 +626,7 @@ if not st.session_state.logged_in:
 # ═══════════════════════════════════════════════════════════════
 # MAIN APP
 # ═══════════════════════════════════════════════════════════════
-username = st.session_state.username
+username = st.session_state.cx_username
 user = USER_DB[username]
 can_use, remaining = can_use_service(username)
 
@@ -693,11 +649,9 @@ with st.sidebar:
     """, unsafe_allow_html=True)
 
     st.markdown("---")
-
-    # Usage stats
     st.markdown("### 📊 Session")
     st.markdown(f"**Checks:** {user['usage_count']}")
-    st.markdown(f"**Theme:** {st.session_state.theme.title()}")
+    st.markdown(f"**Theme:** {st.session_state.cx_theme.title()}")
 
     if not user["is_premium"]:
         st.markdown("---")
@@ -716,21 +670,25 @@ with st.sidebar:
             </div>
         </div>
         """, unsafe_allow_html=True)
-        st.button("💳 Upgrade", use_container_width=True)
+        st.button("💳 Upgrade", use_container_width=True, key="cx_upgrade_btn")
 
     st.markdown("---")
-    if st.button("🚪 Sign Out", use_container_width=True):
-        st.session_state.logged_in = False
-        st.session_state.username = None
+    if st.button("🚪 Sign Out", use_container_width=True, key="cx_logout_btn"):
+        st.session_state.cx_logged_in = False
+        st.session_state.cx_username = None
         st.rerun()
 
-# Hero
+# Hero with image
+unsplash_keywords = theme["image_keywords"].replace(" ", ",")
+hero_image_url = f"https://source.unsplash.com/1200x350/?{unsplash_keywords}"
+
 st.markdown(f"""
-<div class="hero-4d">
-    <div class="hero-content">
-        <div class="hero-logo">◈ CoreX</div>
-        <div class="hero-tagline">Reality-Grade AI Verification</div>
-        <div class="hero-theme-badge">{theme['emoji']} {st.session_state.theme.title()} Theme Active</div>
+<div class="theme-hero">
+    <img src="{hero_image_url}" alt="{st.session_state.cx_theme.title()} theme" />
+    <div class="theme-hero-overlay">
+        <div class="theme-hero-logo">◈ CoreX</div>
+        <div class="theme-hero-tagline">Reality-Grade AI Verification</div>
+        <div class="theme-badge">{theme['emoji']} {st.session_state.cx_theme.title()} Theme Active</div>
     </div>
 </div>
 """, unsafe_allow_html=True)
@@ -762,26 +720,26 @@ with col_input:
     st.markdown('<div class="glass-card">', unsafe_allow_html=True)
     st.markdown("### 🎯 Verify Anything")
 
-    question = st.text_input("Question", "When was the Eiffel Tower built and who designed it?")
-    response = st.text_area("AI Response to Evaluate", "The Eiffel Tower was built in 1850 by Leonardo da Vinci. It is 500 meters tall and made of solid gold.")
+    question = st.text_input("Question", "When was the Eiffel Tower built and who designed it?", key="cx_question_input")
+    response = st.text_area("AI Response to Evaluate", "The Eiffel Tower was built in 1850 by Leonardo da Vinci. It is 500 meters tall and made of solid gold.", key="cx_response_input")
 
-    if st.button("◈ Verify Reality", use_container_width=True):
+    if st.button("◈ Verify Reality", use_container_width=True, key="cx_verify_btn"):
         if not can_use and not user["is_premium"]:
             st.error("Daily limit reached!")
             st.stop()
 
-        st.session_state.last_question = question
-        st.session_state.current_question = question
-        st.session_state.current_response = response
-        st.session_state.run_evaluation = True
+        st.session_state.cx_last_question = question
+        st.session_state.cx_current_q = question
+        st.session_state.cx_current_r = response
+        st.session_state.cx_run_eval = True
         st.rerun()
 
     st.markdown('</div>', unsafe_allow_html=True)
 
 # Evaluation
-if st.session_state.get("run_evaluation"):
-    question = st.session_state.current_question
-    response = st.session_state.current_response
+if st.session_state.cx_run_eval:
+    question = st.session_state.cx_current_q
+    response = st.session_state.cx_current_r
 
     with col_result:
         with st.spinner("🔍 Scanning reality..."):
@@ -792,7 +750,6 @@ if st.session_state.get("run_evaluation"):
         score = eval_data["overall_score"]
         score_pct = (score / 5.0) * 100
 
-        # Color based on score
         if score >= 4:
             score_color = theme["score_high"]
             score_word = "Verified"
@@ -803,23 +760,22 @@ if st.session_state.get("run_evaluation"):
             score_color = theme["score_low"]
             score_word = "Unreliable"
 
-        ring_offset = 565.48 * (1 - score_pct / 100)
+        ring_offset = 502.65 * (1 - score_pct / 100)
 
         st.markdown('<div class="glass-card">', unsafe_allow_html=True)
         st.markdown("### 📊 Reality Score")
 
-        # 4D Score Ring
         st.markdown(f"""
         <div class="score-ring-container">
-            <svg class="score-ring-svg" width="200" height="200" viewBox="0 0 200 200">
+            <svg class="score-ring-svg" width="180" height="180" viewBox="0 0 180 180">
                 <defs>
                     <linearGradient id="scoreGradient" x1="0%" y1="0%" x2="100%" y2="100%">
                         <stop offset="0%" style="stop-color:{score_color};stop-opacity:1" />
                         <stop offset="100%" style="stop-color:{theme['accent']};stop-opacity:1" />
                     </linearGradient>
                 </defs>
-                <circle class="score-ring-bg" cx="100" cy="100" r="90"/>
-                <circle class="score-ring-progress" cx="100" cy="100" r="90" 
+                <circle class="score-ring-bg" cx="90" cy="90" r="80"/>
+                <circle class="score-ring-progress" cx="90" cy="90" r="80" 
                     style="--target-offset: {ring_offset:.2f};"/>
             </svg>
             <div class="score-value" style="color: {score_color};">{score:.2f}</div>
@@ -827,7 +783,6 @@ if st.session_state.get("run_evaluation"):
         </div>
         """, unsafe_allow_html=True)
 
-        # Dimension bars
         dims = [
             ("Accuracy", eval_data["accuracy"]),
             ("Relevance", eval_data["relevance"]),
@@ -863,6 +818,23 @@ if st.session_state.get("run_evaluation"):
         """, unsafe_allow_html=True)
 
         st.markdown('</div>', unsafe_allow_html=True)
+
+    # Image Grid
+    st.markdown("### 🖼️ Visual Context")
+    search_query = question.replace(" ", ",")
+    st.markdown(f"""
+    <div class="image-grid">
+        <div class="image-grid-item">
+            <img src="https://source.unsplash.com/400x300/?{search_query}" alt="Related 1" />
+        </div>
+        <div class="image-grid-item">
+            <img src="https://source.unsplash.com/400x300/?{search_query},detail" alt="Related 2" />
+        </div>
+        <div class="image-grid-item">
+            <img src="https://source.unsplash.com/400x300/?{search_query},closeup" alt="Related 3" />
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
 
     # Facts Section
     st.markdown("### 📚 Verified Sources")
@@ -902,7 +874,7 @@ if st.session_state.get("run_evaluation"):
         </div>
         """, unsafe_allow_html=True)
 
-    st.session_state.run_evaluation = False
+    st.session_state.cx_run_eval = False
 
 # Footer
 st.markdown(f"""
